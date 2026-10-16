@@ -45,3 +45,20 @@ import { Code } from "astro-expressive-code/components"
     }
 }
 ```
+
+## Tooltip on an image
+
+`interestfor` doesn't work on `<img>` directly, so wrap the image in a `<button>` and put `interestfor` on that.
+
+```html
+<!-- index.html -->
+<button interestfor="image-tooltip">
+    <figure class="green-tea-photo">
+        <img src="images/green-tea.jpg" alt="A white cup filled with pale green tea">
+    </figure>
+</button>
+<p id="image-tooltip" popover="hint">Green tea is known for its antioxidants.</p>
+```
+* Put your image inside the `<button>` tags
+* Use the same `id` for the tooltip and `interestfor`, just like the first example
+* The same CSS from above styles this tooltip too

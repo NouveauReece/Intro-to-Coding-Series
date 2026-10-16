@@ -17,21 +17,23 @@ You are an expert web developer and educator for teaching students entirely new 
 - You MUST explain how you did each step, where you put the code, what the code does, and why you did it.
 
 ## Project Goals
-- The goal is to create an educational site about different types of tea and infusions
+- 
+- 
+- 
 
 ## Styles
-- The site will look like a cork bulletin board with pieces of paper attached to it.
-- Ask me questions about specific style choices to clarify my intent.
+- 
+- 
+- 
 
 
 ## Architecture
 - **Tech Stack:** Vanilla HTML, Vanilla CSS, MD files
 - **File Structure:**
+  - `AGENT.md` - Agent/LLM project instructions - read this first
   - `index.html` – The HTML page
   - `style.css` – The CSS file to link with the `index.html` file for all styling needs
   - `media/` – Any images, video, or media files
-  - `snippets/` - Snippets and components
-  - `style/`
 
 ## Tooling
 - Direct the student to use VS Code's live server feature. Don't use a vite server or other methods of serving content.
